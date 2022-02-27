@@ -1,0 +1,1 @@
+export const SPOONACULAR_API = `https://api.spoonacular.com/food/menuItems/search`

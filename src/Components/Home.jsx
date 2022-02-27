@@ -5,13 +5,9 @@ import Menu from './Builder/Menu'
 const Home = () => {
     return (
         <div>
-            {/* Banner */}
             < Banner />
-            {/* Menu */}
             < Menu />
-            {/* Footer */}
             < Footer />
-            {/* Cart count Button */}
         </div>
 
     )
