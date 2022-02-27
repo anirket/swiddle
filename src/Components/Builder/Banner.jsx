@@ -53,8 +53,8 @@ const Banner = () => {
             <h2 className=" w-11/12">
               Delicious food for your cravings!
             </h2>
-            <div className="menubutton text-2xl bg-black text-white w-60 p-4 mt-10 rounded-l-3xl rounded-tr-3xl">
-              <button onClick={scroll} className=" flex justify-between items-center w-52"><span>View Menu</span> <AiOutlineArrowRight /></button>
+            <div onClick={scroll} className="menubutton text-2xl bg-black text-white w-60 p-4 mt-10 rounded-l-3xl rounded-tr-3xl">
+              <button  className=" flex justify-between items-center w-52"><span>View Menu</span> <AiOutlineArrowRight /></button>
             </div>
 
           </div>
