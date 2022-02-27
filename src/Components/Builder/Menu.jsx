@@ -104,7 +104,7 @@ const Menu = () => {
       {
         menuitems.map((menu) => (
 
-          <div key={menu.id} className="foodcard   border-2 m-4 rounded-xl  cursor-pointer flex flex-col justify-center items-center">
+          <div key={menu.id} className="foodcard   border-2 m-4 rounded-xl   flex flex-col justify-center items-center">
 
             <img onError={addDefaultSrc} className=' w-72 h-56 p-4' src={menu.image} alt="" />
             <div className="details text-center text-xl w-56 m-2 text-black p-4 font-semibold rounded-lg">
