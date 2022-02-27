@@ -136,7 +136,7 @@ const Cart = () => {
                     <div className="pb-5 pt-5 text-2xl flex justify-center">
                         <StripeCheckout
                             token={handletoken}
-                            stripeKey="pk_test_51Hey1yBTLqdejHDNhlIr9mrEfD9kqRfZEBCl6LSfWpLBGmloxpOH1fUHCU468R5EtfwdtFvyJ4F9lQ5xnJ3xfBfF000hTuVCW4"
+                            stripeKey={process.env.REACT_STRIPE_KEY}
                             billingAddress
                             shippingAddress
                             amount={(totalprice / 70) * 100} />
