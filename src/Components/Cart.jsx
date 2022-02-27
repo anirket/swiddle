@@ -134,6 +134,7 @@ const Cart = () => {
                     </div>
 
                     <div className="pb-5 pt-5 text-2xl flex justify-center">
+                      
                         <StripeCheckout
                             token={handletoken}
                             stripeKey={process.env.REACT_APP_STRIPE_KEY}

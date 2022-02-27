@@ -17,7 +17,7 @@ const Menu = () => {
     if (menuitems.length > 0) {
       return;
     }
-    console.log("herew")
+
 
     random_recipes();
   }, [])
@@ -29,7 +29,6 @@ const Menu = () => {
     const randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)]
     let url = `${SPOONACULAR_API}?query=${randomCharacter}&number=20&apiKey=${process.env.REACT_APP_API_KEY}`;
 
-    console.log(url)
     try {
       const recipes = await fetch(url)
       const recipes_json = await recipes.json();
